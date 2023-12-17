@@ -14,7 +14,7 @@ my_func(3)
 def hello_world():
 	print("Hello world!")
 
-#Random Number Generator
+#Random number generator
 def random_number_generator(low,high):
 	random_number = random.randint(low,high)
 	return random_number
