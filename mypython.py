@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import random
 
 
 def my_func(k):
@@ -12,6 +13,17 @@ my_func(3)
 
 def hello_world():
 	print("Hello world!")
+
+#Random Number Generator
+def random_number_generator(low,high):
+	random_number = random.randint(low,high)
+	return random_number
+
+
+
+
+print(random_number_generator(1,6))
+
 
 
 # This code is only run when the file itself is run
